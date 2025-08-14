@@ -1,0 +1,5 @@
+﻿  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 216 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  fsScanner.vcxproj -> C:\Users\userx0001\Repositories\fsScanner\x64\Release\fsScanner.exe
