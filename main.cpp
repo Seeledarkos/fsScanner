@@ -15,9 +15,8 @@ struct FileSignature {
 
 
 void helpPage() {
-    std::cout << "File type analyzer | version 0.8\n";
+    std::cout << "fsScanner | version 0.8\n";
     std::cout << "Usage: ./faAnalyzer.exe <path_to_file>\n";
-    std::cout << "Example: ./faAnalyzer.exe image.jpg\n";
 }
 
 // Функция для определения типа файла по сигнатуре
@@ -56,7 +55,8 @@ void determineFileType(uint64_t signature) {
     {0xEFBBBFULL,           "UTF-8 BOM"},
     {0xFEFFULL,             "UTF-16BE BOM"},
     {0xFFFEULL,             "UTF-16LE BOM"},
-    {0x0A1A0A0D474E5089,    "PNG"}
+    {0x0A1A0A0D474E5089,    "PNG"},
+    {0x0000000100785A4D,    "Google executable installer"}
     };
 
 
